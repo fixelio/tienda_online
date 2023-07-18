@@ -1,0 +1,284 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+*::selection {
+	color: white;
+	background-color: #455a64;
+}
+
+::-webkit-scrollbar {
+	width: 16px;
+}
+
+::-webkit-scrollbar-track {
+	background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #37474f;
+}
+
+.text-background-white {
+	color: white;
+}
+/*
+.login {
+	background-color: #fafafa;
+	display: block;
+	width: 420px;
+	margin: 40px auto;
+	border-radius: 17px;
+	box-shadow: 4px 4px 12px rgba(49,49,49,0.5);
+}
+
+.login h4 {
+	position: top;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: lighter;
+}
+
+.login-title {
+	padding-top: 25px;
+}
+
+.login-content {
+	padding: 5px;
+	margin: 15px;
+}
+
+.login-content button {
+	width: 100%;
+}
+
+.login-content .form-floating {
+	margin-bottom: 25px;
+}
+*/
+.menu-icon {
+	font-size: 1.3em;
+	padding-right: 35px;
+}
+
+#alertMessage {
+	margin: 0px;
+	opacity: .90;
+}
+
+.content-bottom {
+	background: #616161;
+	padding-top: 10%;
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+}
+
+article, h1 {
+	margin: 5%;
+}
+
+tbody td {
+	cursor: default;
+}
+
+button {
+	cursor: default;
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+.contenedor
+{
+	width: 80%;
+	margin-left: 50%;
+	margin-top: 40px;
+	transform: translateX(-50%);
+}
+.carta
+{
+	position: relative;
+    width: 100%;
+    height: 400px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+}
+.carta-cabecera
+{
+	position: absolute;
+    width: 100%;
+    height: 200px;
+    left: 0;
+    top: 0;
+    background: rgb(30,40,49);
+}
+.img8x
+{
+	position: absolute;
+    width: 150px;
+    height: 150px;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -50px;
+    background: rgb(233, 233, 233);
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+    overflow: hidden;
+    transition: 0.5s;
+}
+.carta:hover .img8x
+{
+	width: 225px;
+    height: 225px;
+}
+
+.carta .contenido
+{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.carta .contenido .detalles
+{
+	padding-bottom: 70px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+}
+.carta .contenido .detalles h2
+{
+    font-size: 1.75em;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.2em;
+}
+.carta .contenido .detalles h2 span
+{
+    font-size: 1em;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.carta .contenido .detalles .carta-piePagina
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+.carrera-cursada-activa
+{
+	border-left: 0.35rem solid rgba(var(--bs-success-rgb), 0.5);
+}
+.carrera-cursada-noactiva
+{
+	border-left: 0.35rem solid rgba(var(--bs-danger-rgb), 0.5);
+}
+
+
+.svg_image
+{
+	position: relative;
+	width: 96px;
+	height: 96px;
+	margin-left: 20px;
+}
+
+.svg_image_cover
+{
+	position: relative;
+	width: 100%;
+	height: 205px;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+   background-size: contain;
+}
+
+.add_info
+{
+	background-image: url('/cliente/img/svg/undraw_add_information_j2wg.svg');
+}
+
+.search_info
+{
+	background-image: url('/cliente/img/svg/undraw_searching_re_3ra9.svg');
+}
+
+
+@media only screen and (max-width: 600px)
+{
+	.carta .contenido .detalles h2
+	{
+	   font-size: 1em;
+	   font-weight: 600;
+	   color: #555;
+	   line-height: 1.2em;
+	}
+	.carta .contenido .detalles h2 span
+	{
+	   font-size: 1em;
+	   font-weight: 500;
+	   opacity: 0.5;
+	}
+	.carta .contenido .detalles .carta-piePagina
+	{
+	   display: flex;
+	   justify-content: center;
+	   margin: 20px 0 0 0;
+	   font-size: 0.75em;
+	}
+}
+
+
+@media only screen and (max-width: 800px)
+{
+	.carta .contenido .detalles h2
+	{
+	   font-size: 1.25em;
+	   font-weight: 600;
+	   color: #555;
+	   line-height: 1.2em;
+	}
+	.carta .contenido .detalles h2 span
+	{
+	   font-size: 1em;
+	   font-weight: 500;
+	   opacity: 0.5;
+	}
+	.carta .contenido .detalles .carta-piePagina
+	{
+	   display: flex;
+	   justify-content: center;
+	   margin: 20px 0 0 0;
+	   font-size: 0.75em;
+	}
+}
+
+.r-25
+{
+	padding: 15px;
+	border-radius: 10px;
+	border: 2px solid #3e3e3e;
+}
+
+.era--dark
+{
+	background-color: rgb(30,40,49);
+}

@@ -1,0 +1,22 @@
+body {
+  background: #efefef;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 5px 15px 25px gray;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 200px;
+}

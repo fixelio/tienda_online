@@ -1,0 +1,123 @@
+body
+{
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar-dark
+{
+    background: #263238;
+    color: #fff;
+}
+.bg-light
+{
+    background: #ffffff !important;
+}
+.card-header
+{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border-bottom: none;
+}
+.card-footer
+{
+    background: white;
+}
+.main-title
+{
+    font-size: 1em;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]
+{
+    -moz-appearance: textfield;
+}
+.bd-callout
+{
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    background-color: var(--bd-callout-bg, var(--bs-gray-100));
+    border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+}
+.bd-callout h4
+{
+    margin-bottom: 0.25rem;
+}
+.bd-callout>:last-child
+{
+    margin-bottom: 0;
+}
+.bd-callout+.bd-callout
+{
+    margin-top: -0.25rem;
+}
+.bd-callout .highlight
+{
+    background-color: rgba(0,0,0,0.5);
+}
+.bd-callout-success
+{
+    --bd-callout-bg: rgba(var(--bs-success-rgb), 0.075);
+    --bd-callout-border: rgba(var(--bs-success-rgb), 0.5);
+}
+.bd-callout-info
+{
+    --bd-callout-bg: rgba(var(--bs-info-rgb), 0.075);
+    --bd-callout-border: rgba(var(--bs-info-rgb), 0.5);
+}
+.bd-callout-warning
+{
+    --bd-callout-bg: rgba(var(--bs-warning-rgb), 0.075);
+    --bd-callout-border: rgba(var(--bs-warning-rgb), 0.5);
+}
+.bd-callout-danger
+{
+    --bd-callout-bg: rgba(var(--bs-danger-rgb), 0.075);
+    --bd-callout-border: rgba(var(--bs-danger-rgb), 0.5);
+}
+.era--button
+{
+	font-size: 16px;
+	font-family: 'Poppins';
+	border: 0;
+	outline: 0;
+	display: inline-block;
+	position: relative;
+	padding: 0.75rem 1rem;
+	background: transparent;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 10px;
+	/*box-shadow: 1px 1px 5px rgba(49,49,49,0.7);*/
+}
+.era--button-dark
+{
+	background: #1a1a1a;
+	color: #e5e5e5;
+}
+.era--button-dark:hover
+{
+	cursor: pointer;
+	background: #333333;
+}
+span.era--ripple
+{
+	position: absolute;
+	border-radius: 50%;
+	transform: scale(0);
+	background-color: rgba(255, 255, 255, 0.4);
+	animation: ripple 550ms linear;
+}
+@keyframes ripple {
+	to {
+		transform: scale(4);
+		opacity: 0;
+	}
+}
